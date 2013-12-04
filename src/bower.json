@@ -1,0 +1,22 @@
+{
+  "name": "ng-training-101",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cambell-prince/ng-training-101",
+  "description": "Angular Training Demo",
+  "main": "index.html",
+  "authors": [
+    "palaso"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.3"
+  }
+}
