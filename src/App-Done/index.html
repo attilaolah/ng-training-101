@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
-<title>Step 1 Done</title>
+	<meta charset="utf-8" />
+	<title>Sample App</title>
+	<link rel="stylesheet" href="../bower_components/bootstrap-css/css/bootstrap.css" />
+	<link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css">
 </head>
-<body data-ng-app>
-	<div>
-	Some value: <input type="text" data-ng-model="someValue" />
+<body data-ng-app="demo">
+	<div class="navbar">
+	  <div class="navbar-inner">
+	  	<img class="pull-left" style="width:auto;height:40px;margin-right:8px;" src="../images/logo.png" />
+	    <a class="brand" href="#">Computer Store</a>
+	    <ul class="nav">
+	      <li class="active"><a href="#/store">Store</a></li>
+	      <li><a href="#/cart">Cart</a></li>
+	    </ul>
+	  </div>
 	</div>
-	<div>
-	 {{someValue}}
+	<div class="container" data-ng-view>
 	</div>
 	<script src="../bower_components/angular/angular.js"></script>
+	<script src="../bower_components/angular-route/angular-route.js"></script>
+	<script src="app.js"></script>
+	<script src="services.js"></script>
+	<script src="partials/store.js"></script>
+	<script src="partials/product.js"></script>
+	<script src="partials/cart.js"></script>
 </body>
 </html>
