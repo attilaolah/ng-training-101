@@ -13,7 +13,7 @@ This is an introductory course to [AngularJS](http://angularjs.org).  AngularJS 
 
 ## What's not Included
 
-Due to time constrains we won't be looking at testing in this 1 day introductory course.
+Due to time constraints we won't be looking at testing in this 1 day introductory course.
 
 ## Useful Resources ##
 
