@@ -23,11 +23,11 @@ angular.module('demo',
     		}
     	);
 	    $routeProvider.when('/cart', 
-	    		{
-	    			templateUrl: 'partials/cart.html', 
-	    			controller: 'CartCtrl'
-	    		}
-	    	);
+    		{
+    			templateUrl: 'partials/cart.html', 
+    			controller: 'CartCtrl'
+    		}
+    	);
 	    $routeProvider.otherwise({redirectTo: 'store'});
 	}])
 	;
