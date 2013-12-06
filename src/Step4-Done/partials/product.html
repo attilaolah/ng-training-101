@@ -1,14 +1,16 @@
 <h4>Product Info</h4>
 <table>
-<tr>
-<td><img data-ng-src="{{product.image}}" style="width:auto;height:80px;"/></td>
-<td valign="top"><ul>
-	<li>{{product.name}}</li>
-	<li>{{product.price | currency}}</li>
-	<li>{{product.description}}</li>
-</ul></td>
-<td>
-<button data-ng-click="cartAdd(productId)" class="btn btn-primary">Add to Cart</button>
-</td>
-</tr>
+	<tr>
+		<td><img data-ng-src="{{ product.image }}" style="width: auto; height: 80px;"></td>
+		<td valign="top">
+			<ul>
+				<li>{{ product.name }}</li>
+				<li>{{ product.price | currency }}</li>
+				<li>{{ product.description }}</li>
+			</ul>
+		</td>
+		<td>
+			<button data-ng-click="cartAdd(productId)" class="btn btn-primary">Add to Cart</button>
+		</td>
+	</tr>
 </table>
