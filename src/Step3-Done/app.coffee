@@ -6,15 +6,15 @@ angular.module("demo", [
   "demo.store"
   "demo.cart"
 ]).config [
-  "$routeProvider",
+  "$routeProvider"
   ($routeProvider) ->
     $routeProvider.when("/store",
-    	controller: "StoreCtrl"
-    	templateUrl: "partials/store.html"
+      controller: "StoreCtrl"
+      templateUrl: "partials/store.html"
     )
     $routeProvider.when("/cart",
-    	controller: "CartCtrl"
-    	templateUrl: "partials/cart.html"
+      controller: "CartCtrl"
+      templateUrl: "partials/cart.html"
     )
     $routeProvider.otherwise
       redirectTo: "store"
