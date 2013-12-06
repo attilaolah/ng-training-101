@@ -8,11 +8,11 @@ angular.module("demo", [
 ]).config [
   "$routeProvider",
   ($routeProvider) ->
-    $routeProvider.when "/store", (
+    $routeProvider.when("/store",
     	controller: "StoreCtrl"
     	templateUrl: "partials/store.html"
     )
-    $routeProvider.when "/cart", (
+    $routeProvider.when("/cart",
     	controller: "CartCtrl"
     	templateUrl: "partials/cart.html"
     )
