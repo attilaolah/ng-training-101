@@ -6,4 +6,5 @@ angular.module("demo", [
     "$scope",
     ($scope) ->
       $scope.someValue = "Set by the controller"
+      @ # important
   ]

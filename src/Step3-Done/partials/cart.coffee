@@ -5,4 +5,5 @@ angular.module("demo.cart", [
   "$scope"
   "$routeParams"
   ($scope, $routeParams) ->
+    @ # important
 ]

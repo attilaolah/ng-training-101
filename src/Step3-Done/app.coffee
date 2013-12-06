@@ -18,4 +18,5 @@ angular.module("demo", [
     )
     $routeProvider.otherwise
       redirectTo: "store"
+    @ # important
 ]

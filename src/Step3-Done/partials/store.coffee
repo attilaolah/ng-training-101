@@ -5,4 +5,5 @@ angular.module("demo.store", [
   "$scope"
   "$routeParams"
   ($scope, $routeParams) ->
+    @ # important
 ]
